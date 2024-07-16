@@ -62,12 +62,12 @@
     <div class="header_bottom">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="<?php echo get_theme_file_uri('index.php') ?>">
+          <a class="navbar-brand" href="<?php echo home_url(); ?>">   <!-- "home_url();" this is used to redirect to home when someone click the main title of the web -->
             <span>
               Carint
             </span>
           </a>
-
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
